@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, darkgray, gray);
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.head{
+    background-image: url(interface-3614766.png);
+    height: 40vh;
+    width: 100%;
+    padding-top: 40px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(219, 38, 92);
+}
+.header{
+    font-size: 60px;
+    padding-top: 70px;
+
+}
+.fp{
+    padding-left: 20px;
+}
+.bodie{
+    padding: 20px;
+    margin: 5px;
+    line-height: 25px;
+}
+input[type="text"]{
+    background-color: transparent;
+    color: black;
+    outline-color: darkgray;
+    width: 60%;
+    padding: 8px 8px;
+    margin: 10px 0;
+    border-style: none;
+    border-bottom: 2px solid darkcyan;
+}
+input[type="password"]{
+    background-color: transparent;
+    color: black;
+    outline-color: darkgray;
+    width: 60%;
+    padding: 8px 8px;
+    margin: 10px 0;
+    border-style: none;
+    border-bottom: 2px solid darkcyan;
+}
+input[type="submit"]{
+    background-color: transparent;
+    border:1px solid white;
+    margin-top: 20px;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(219, 38, 92), GREY, rgb(33, 243, 155), rgb(219, 38, 92));
+    background-size: 400%;
+    
+}
+input[type="submit"]:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+.footer{
+    background-color: rgb(123, 185, 185);
+    color: black;
+    padding: 3px 20px;
+    margin: 5px 15px;
+}
